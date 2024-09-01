@@ -85,6 +85,7 @@ button.call {
     background-color: #48e24e;
     border: none;
     padding: 5px 10px;
+    margin-left: 7px;
     border-radius: 4px;
     cursor: pointer;
     text-decoration: none;
@@ -103,7 +104,6 @@ button.delete {
     color: white;
     border: none;
     padding: 5px 10px;
-    margin-left: 7px;
     border-radius: 4px;
     cursor: pointer;
 }

@@ -26,7 +26,7 @@ function adicionarLinha() {
     tr.innerHTML = `
         <td>${nome}</td>
         <td>${telefone}</td>
-        <td><button class="call"><a href="tel:${telefone}"</a><i class="fas fa-phone"></i></button><button class="delete">Excluir</button></td>
+        <td></button><button class="delete">Excluir</button><button class="call"><a href="tel:${telefone}"</a><i class="fas fa-phone"></i></td>
     `;
 
     tbody.appendChild(tr);
