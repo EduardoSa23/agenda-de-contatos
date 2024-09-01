@@ -45,6 +45,7 @@ th {
     background-color: #4CAF50;
     color: white;
     text-transform: uppercase;
+    border-bottom: 2px solid #ddd;
 }
 
 tbody tr:hover {
@@ -80,11 +81,29 @@ button[type="submit"]:hover {
     background-color: #45a049;
 }
 
+button.call {
+    background-color: #48e24e;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button.call:hover {
+    background-color: #45a049;
+}
+
+button.call .fas.fa-phone {
+    color: white;
+}
+
 button.delete {
     background-color: #e74c3c;
     color: white;
     border: none;
     padding: 5px 10px;
+    margin-left: 7px;
     border-radius: 4px;
     cursor: pointer;
 }
