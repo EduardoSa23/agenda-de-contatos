@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 960px;
+    width: 100%;
+    padding: 100px;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -13,7 +19,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+
 }
 
 header {

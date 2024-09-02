@@ -8,26 +8,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-    <img src="images/telefone.png" alt="Telefone cerde" />
-    <h1>Agenda de Contatos</h1>
-    </header>
-    <table>
-        <thead>
-                <tr>
-                <th>Nome</th>
-                <th>Telefone</th>
-                <th>Ações</th>
-            </tr>
-        </thead>
-        <tbody id="lista-contatos">
-        </tbody>
-    </table>
-    <form id="form-atividade">
-        <input type="text" id="nome" required placeholder="Nome"/>
-        <input type="number" id="telefone" required placeholder="Telefone" />
-        <button type="submit" id="btn-adcionar">Adicionar</button>
-    </form>
-    <script src="main.js"></script>
+    <div class="container">
+        <header>
+            <img src="images/telefone.png" alt="Telefone cerde" />
+            <h1>Agenda de Contatos</h1>
+            </header>
+            <table>
+                <thead>
+                        <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="lista-contatos">
+                </tbody>
+            </table>
+            <form id="form-atividade">
+                <input type="text" id="nome" required placeholder="Nome"/>
+                <input type="number" id="telefone" required placeholder="Telefone" />
+                <button type="submit" id="btn-adcionar">Adicionar</button>
+            </form>
+            <script src="main.js"></script>
+    </div>
 </body>
 </html>
